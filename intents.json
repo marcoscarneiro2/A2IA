@@ -31,32 +31,32 @@
   "oquedeseja": [
     {
       "tag": "desejo_informacao",
-      "patterns": ["O que você pode me contar sobre [assunto]?", "Gostaria de saber mais sobre [assunto]."],
-      "response": ["Claro! Vou te fornecer algumas informações sobre [assunto]."],
+      "patterns": ["O que você pode me contar sobre você?", "Gostaria de saber mais sobre você."],
+      "response": ["Claro! Vou te fornecer algumas informações sobre você."],
       "context": []
     },
     {
       "tag": "desejo_ajuda",
-      "patterns": ["Preciso de ajuda com [assunto].", "Você pode me ajudar com [assunto]?"],
+      "patterns": ["Preciso de ajuda com Computador.", "Você pode me ajudar com Computador?"],
       "response": ["Com certeza! Estou aqui para ajudar. O que você precisa?"],
       "context": []
     },
     {
       "tag": "desejo_comprar",
-      "patterns": ["Estou interessado em comprar [produto/serviço].", "Como faço para adquirir [produto/serviço]?"],
-      "response": ["Ótimo! Podemos te ajudar a comprar [produto/serviço]."],
+      "patterns": ["Estou interessado em comprar computador.", "Como faço para adquirir computador?"],
+      "response": ["Ótimo! Podemos te ajudar a comprar computador."],
       "context": []
     },
     {
       "tag": "desejo_suporte",
-      "patterns": ["Preciso de suporte técnico.", "Estou enfrentando problemas com [produto/serviço]."],
+      "patterns": ["Preciso de suporte técnico.", "Estou enfrentando problemas com computador."],
       "response": ["Entendido. Vou te auxiliar com o suporte necessário para resolver o problema."],
       "context": []
     },
     {
       "tag": "desejo_cancelar",
-      "patterns": ["Gostaria de cancelar [produto/serviço].", "Como faço para cancelar minha assinatura?"],
-      "response": ["Entendido. Vamos ajudar você com o cancelamento de [produto/serviço]."],
+      "patterns": ["Gostaria de cancelar minha assinatura.", "Como faço para cancelar minha assinatura?"],
+      "response": ["Entendido. Vamos ajudar você com o cancelamento de computador."],
       "context": []
     },
     {
@@ -67,40 +67,40 @@
     },
     {
       "tag": "desejo_saber_preco",
-      "patterns": ["Qual é o preço de [produto/serviço]?", "Gostaria de saber o valor de [produto/serviço]."],
-      "response": ["O preço de [produto/serviço] é [valor]."],
+      "patterns": ["Qual é o preço do computador?", "Gostaria de saber o valor de computador."],
+      "response": ["O preço de computador é 5000."],
       "context": []
     },
     {
       "tag": "desejo_reclamar",
-      "patterns": ["Quero fazer uma reclamação.", "Estou insatisfeito com [produto/serviço]."],
+      "patterns": ["Quero fazer uma reclamação.", "Estou insatisfeito com computador."],
       "response": ["Lamentamos pelo inconveniente. Vamos registrar sua reclamação e buscar uma solução."],
       "context": []
     },
     {
       "tag": "desejo_sugestao",
-      "patterns": ["Você tem alguma sugestão de [produto/serviço]?", "Estou procurando recomendações sobre [produto/serviço]."],
-      "response": ["Com certeza! Podemos te dar algumas sugestões sobre [produto/serviço]."],
+      "patterns": ["Você tem alguma sugestão de computador?", "Estou procurando recomendações sobre computador."],
+      "response": ["Com certeza! Podemos te dar algumas sugestões sobre computador."],
       "context": []
     },
     {
       "tag": "desejo_esclarecimento",
-      "patterns": ["Preciso esclarecer algumas dúvidas.", "Gostaria de obter mais informações sobre [assunto]."],
-      "response": ["Claro! Vamos esclarecer suas dúvidas sobre [assunto]."],
+      "patterns": ["Preciso esclarecer algumas dúvidas.", "Gostaria de obter mais informações sobre computador."],
+      "response": ["Claro! Vamos esclarecer suas dúvidas sobre o computador."],
       "context": []
     }
   ],
   "assuntoFutebol": [
     {
       "tag": "desejo_informacao",
-      "patterns": ["O que você pode me contar sobre [assunto] no futebol?", "Gostaria de saber mais sobre [assunto] no futebol."],
-      "response": ["Claro! Vou te fornecer algumas informações sobre [assunto] no futebol."],
+      "patterns": ["O que você pode me contar sobre o vasco no futebol?", "Gostaria de saber mais sobre vasco no futebol."],
+      "response": ["Claro! Vou te fornecer algumas informações sobre vasco no futebol."],
       "context": []
     },
     {
       "tag": "desejo_ajuda",
-      "patterns": ["Preciso de ajuda com [assunto] relacionado ao futebol.", "Você pode me ajudar com [assunto] no contexto do futebol?"],
-      "response": ["Com certeza! Estou aqui para ajudar. O que você precisa saber sobre [assunto] no futebol?"],
+      "patterns": ["Preciso de ajuda com vasco relacionado ao futebol.", "Você pode me ajudar com vasco no contexto do futebol?"],
+      "response": ["Com certeza! Estou aqui para ajudar. O que você precisa saber sobre vasco no futebol?"],
       "context": []
     },
     {
@@ -141,8 +141,8 @@
     },
     {
       "tag": "desejo_opiniao",
-      "patterns": ["Qual é a sua opinião sobre [assunto] no futebol?", "Gostaria de saber qual é a sua opinião sobre [assunto] no contexto do futebol."],
-      "response": ["Minha opinião sobre [assunto] no futebol é [opinião]."],
+      "patterns": ["Qual é a sua opinião sobre vasco no futebol?", "Gostaria de saber qual é a sua opinião sobre vasco no contexto do futebol."],
+      "response": ["Minha opinião sobre vasco no futebol é que ele é o maior."],
       "context": []
     },
     {
