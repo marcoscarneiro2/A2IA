@@ -1,0 +1,155 @@
+{
+  "intencoes": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "Olá!",
+        "Oi!",
+        "E aí?",
+        "Bom dia!",
+        "Boa tarde!",
+        "Boa noite!",
+        "Como vai?",
+        "Tudo bem?",
+        "Saudações!",
+        "Que prazer te ver!",
+        "Oi, como posso ajudar?",
+        "E aí, tudo tranquilo?",
+        "Como tem passado?",
+        "Espero que seu dia esteja ótimo!",
+        "Desejo um bom dia/noite a você!"
+      ],
+      "response": [
+        "Olá! Como posso ajudar?",
+        "Oi! Em que posso ser útil?",
+        "Olá, tudo bem? Em que posso auxiliar?",
+        "Boa tarde! Como posso ser útil para você hoje?"
+      ],
+      "context": []
+    }
+  ],  
+  "oquedeseja": [
+    {
+      "tag": "desejo_informacao",
+      "patterns": ["O que você pode me contar sobre [assunto]?", "Gostaria de saber mais sobre [assunto]."],
+      "response": ["Claro! Vou te fornecer algumas informações sobre [assunto]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_ajuda",
+      "patterns": ["Preciso de ajuda com [assunto].", "Você pode me ajudar com [assunto]?"],
+      "response": ["Com certeza! Estou aqui para ajudar. O que você precisa?"],
+      "context": []
+    },
+    {
+      "tag": "desejo_comprar",
+      "patterns": ["Estou interessado em comprar [produto/serviço].", "Como faço para adquirir [produto/serviço]?"],
+      "response": ["Ótimo! Podemos te ajudar a comprar [produto/serviço]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_suporte",
+      "patterns": ["Preciso de suporte técnico.", "Estou enfrentando problemas com [produto/serviço]."],
+      "response": ["Entendido. Vou te auxiliar com o suporte necessário para resolver o problema."],
+      "context": []
+    },
+    {
+      "tag": "desejo_cancelar",
+      "patterns": ["Gostaria de cancelar [produto/serviço].", "Como faço para cancelar minha assinatura?"],
+      "response": ["Entendido. Vamos ajudar você com o cancelamento de [produto/serviço]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_agendar",
+      "patterns": ["Quero agendar um horário.", "Como faço para marcar uma consulta?"],
+      "response": ["Claro! Podemos agendar um horário para você. Quando você está disponível?"],
+      "context": []
+    },
+    {
+      "tag": "desejo_saber_preco",
+      "patterns": ["Qual é o preço de [produto/serviço]?", "Gostaria de saber o valor de [produto/serviço]."],
+      "response": ["O preço de [produto/serviço] é [valor]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_reclamar",
+      "patterns": ["Quero fazer uma reclamação.", "Estou insatisfeito com [produto/serviço]."],
+      "response": ["Lamentamos pelo inconveniente. Vamos registrar sua reclamação e buscar uma solução."],
+      "context": []
+    },
+    {
+      "tag": "desejo_sugestao",
+      "patterns": ["Você tem alguma sugestão de [produto/serviço]?", "Estou procurando recomendações sobre [produto/serviço]."],
+      "response": ["Com certeza! Podemos te dar algumas sugestões sobre [produto/serviço]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_esclarecimento",
+      "patterns": ["Preciso esclarecer algumas dúvidas.", "Gostaria de obter mais informações sobre [assunto]."],
+      "response": ["Claro! Vamos esclarecer suas dúvidas sobre [assunto]."],
+      "context": []
+    }
+  ],
+  "assuntoFutebol": [
+    {
+      "tag": "desejo_informacao",
+      "patterns": ["O que você pode me contar sobre [assunto] no futebol?", "Gostaria de saber mais sobre [assunto] no futebol."],
+      "response": ["Claro! Vou te fornecer algumas informações sobre [assunto] no futebol."],
+      "context": []
+    },
+    {
+      "tag": "desejo_ajuda",
+      "patterns": ["Preciso de ajuda com [assunto] relacionado ao futebol.", "Você pode me ajudar com [assunto] no contexto do futebol?"],
+      "response": ["Com certeza! Estou aqui para ajudar. O que você precisa saber sobre [assunto] no futebol?"],
+      "context": []
+    },
+    {
+      "tag": "desejo_noticias",
+      "patterns": ["Quais são as últimas notícias sobre futebol?", "Gostaria de me atualizar com as notícias mais recentes do mundo do futebol."],
+      "response": ["Ótimo! Vou te informar as últimas notícias sobre futebol."],
+      "context": []
+    },
+    {
+      "tag": "desejo_classificacao",
+      "patterns": ["Qual é a classificação atual dos times no campeonato de futebol?", "Gostaria de saber como estão os times na tabela do campeonato."],
+      "response": ["Entendido. Vou te fornecer a classificação atual dos times no campeonato de futebol."],
+      "context": []
+    },
+    {
+      "tag": "desejo_estatisticas",
+      "patterns": ["Quero saber as estatísticas de um jogador/time no futebol.", "Como posso encontrar as estatísticas de um jogador/time no futebol?"],
+      "response": ["Compreendido. Vou te ajudar a encontrar as estatísticas de um jogador/time no futebol."],
+      "context": []
+    },
+    {
+      "tag": "desejo_jogos",
+      "patterns": ["Quais são os próximos jogos de futebol?", "Gostaria de saber a agenda dos próximos jogos de futebol."],
+      "response": ["Claro! Vou te informar sobre os próximos jogos de futebol."],
+      "context": []
+    },
+    {
+      "tag": "desejo_resultados",
+      "patterns": ["Qual foi o resultado do último jogo de futebol?", "Gostaria de saber o placar do último jogo de futebol."],
+      "response": ["O resultado do último jogo de futebol foi [placar]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_curiosidades",
+      "patterns": ["Me conte uma curiosidade sobre futebol.", "Gostaria de saber alguma curiosidade interessante sobre futebol."],
+      "response": ["Lógico! Vou te contar uma curiosidade fascinante sobre futebol."],
+      "context": []
+    },
+    {
+      "tag": "desejo_opiniao",
+      "patterns": ["Qual é a sua opinião sobre [assunto] no futebol?", "Gostaria de saber qual é a sua opinião sobre [assunto] no contexto do futebol."],
+      "response": ["Minha opinião sobre [assunto] no futebol é [opinião]."],
+      "context": []
+    },
+    {
+      "tag": "desejo_ingressos",
+      "patterns": ["Como posso comprar ingressos para um jogo de futebol?", "Gostaria de saber como adquirir ingressos para um jogo de futebol."],
+      "response": ["Entendido. Vou te auxiliar com informações sobre a compra de ingressos para jogos de futebol."],
+      "context": []
+    }
+  ]
+}
